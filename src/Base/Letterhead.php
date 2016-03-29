@@ -280,7 +280,7 @@ abstract Class BaseLetterhead {
     }
 
     function toJson() {
-        return json_encode($this->info);
+        return json_encode([$this->info]);
     }
 
 }
