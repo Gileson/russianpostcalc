@@ -107,7 +107,7 @@ abstract Class BaseLetterhead {
      *
      * @return \Gileson\RussianPostCalc\Letterhead
      */
-    function seToCity($city) {
+    function setToCity($city) {
         return $this->_(__FUNCTION__, $city);
     }
 
